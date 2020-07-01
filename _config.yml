@@ -39,7 +39,7 @@ organization-logo-nav: https://www.lib.uidaho.edu/media/digital/bannerlogo_allwh
 # choose metadata: this is the name of the csv file in your _data directory that describes the objects in your collection
 metadata: cb_metadata_sctwnc
 # contentdm collection name, matches collection ID used by CDM
-cdm-collection-id: psychiana
+cdm-collection-id: p16062coll6
 # CONTENTdm server url
 cdm-url: https://digital.ncdcr.gov
 # page generation settings 
