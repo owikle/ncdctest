@@ -8,9 +8,9 @@
 # URL VARIABLES
 #
 # site domain, full URL to the production location of your collection
-url: https://www.lib.uidaho.edu
+url: https://erholmes.github.io
 # path to location on the domain if necessary e.g. /digital/hjccc
-baseurl: /demo/multicollection
+baseurl: /ncdctest
 # location of code, the full url to your github repository
 source-code: https://github.com/CollectionBuilder
 
@@ -20,16 +20,16 @@ source-code: https://github.com/CollectionBuilder
 # title of site appears in banner
 title: She Changed the World
 # tagline, a short phrase that will appear throughout the site in the top banner
-tagline: Digital Collection Magic with Static Web Technologies
+tagline: Who changed the World from North Carolina? She did!
 # description appears in meta tags and other locations
 # this description might appear in search result lists, keep around 160 characters max
-description: "Demo collection using three CONTENTdm collections metadata" 
+description: "NC Digital Collections - Demo She Changed the World collection" 
 # creator of the digital collection, to appear in meta tags; we typically use our GitHub usernames but feel free to just use your name
-author: CollectionBuilder
+author: "SLNC, SANC"
 # Organization branding
-organization-name: "Digital Initiatives, University of Idaho Library"
-organization-link: https://www.lib.uidaho.edu/digital/
-organization-logo-banner: https://www.lib.uidaho.edu/media/digital/justdi_logo_sm.png
+organization-name: "State Library of North Carolina, State Archives of North Carolina"
+organization-link: https://digital.ncdcr.gov
+organization-logo-banner: https://digital.ncdcr.gov/customizations/global/images/NCDCWebsiteLogo.png
 organization-logo-nav: https://www.lib.uidaho.edu/media/digital/bannerlogo_allwhite.png
 
 
@@ -37,15 +37,15 @@ organization-logo-nav: https://www.lib.uidaho.edu/media/digital/bannerlogo_allwh
 # COLLECTION SETTINGS
 #
 # choose metadata: this is the name of the csv file in your _data directory that describes the objects in your collection
-metadata: demo_multicollection_small
+metadata: cb_metadata_sctwnc
 # contentdm collection name, matches collection ID used by CDM
 cdm-collection-id: psychiana
 # CONTENTdm server url
-cdm-url: https://digital.lib.uidaho.edu
+cdm-url: https://digital.ncdcr.gov
 # page generation settings 
 # "data" value must be the name of the metadata file (other values should be not be changed)
 page_gen:
-  - data: 'demo_multicollection_small'
+  - data: 'cb_metadata_sctwnc'
     template: 'items'
     name: 'objectid'
     dir: 'items'
