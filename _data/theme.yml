@@ -8,7 +8,7 @@
 #
 # featured image is used in home page banner and in meta markup to represent the collection
 # use either an objectid (from an item in this collect), a relative location of an image in this repo, or a full url to an image elsewhere
-featured-image: demo_psychiana548
+featured-image: /assets/img/p16062coll13_59_full.jpg
 home-title-y-padding: 12em # the margin from the top your title portion will appear.
 home-banner-image-position: center # [options: top, center, bottom] Default: top
 carousel-height: # in px, but don't include the "px"; default is 450.
@@ -24,7 +24,7 @@ featured-locations-max: 3
 #
 # Featured image on About page - if left blank, CB will use image featured on the home page
 # use either an objectid (from an item in this collect), a relative location of an image in this repo, or a full url to an image elsewhere
-about-featured-image: demo_psychiana565
+about-featured-image: 
 
 ##########
 # BROWSE PAGE
@@ -48,16 +48,16 @@ subjects-stopwords: # set of subjects separated by ; that will be removed from d
 ##########
 # LOCATIONS PAGE
 #
-locations-fields: location # set of fields separated by ; to be featured in the cloud (leave blank or comment out to not generate)
+locations-fields: Guilford County, North Carolina, United States;Robeson County, North Carolina, United States;Wake County, North Carolina, United States;Henderson County, North Carolina, United States;Buncombe County, North Carolina, United States;Swain County, North Carolina, United States;Warren County, North Carolina, United States;Craven County, North Carolina, United States;Hoke County, North Carolina, United States;New York County, New York, United States;Orange County, North Carolina, United States # set of fields separated by ; to be featured in the cloud (leave blank or comment out to not generate)
 locations-min: 1 # min size for subject cloud, too many terms = slow load time!
-locations-stopwords: # set of subjects separated by ; that will be removed from display, e.g. boxers;boxing
+locations-stopwords: United States # set of subjects separated by ; that will be removed from display, e.g. boxers;boxing
 
 ##########
 # MAP PAGE
 #
 # see _data/map-config.csv for field display options
-latitude: 39.805157 #to determine center of map
-longitude: -95.036494 #to determine center of map
+latitude: 35.399756 #to determine center of map
+longitude: 79.766613 #to determine center of map
 zoom-level: 5 # zoom level for map 
 map-base: Esri_WorldStreetMap # set default base map, choose from: Esri_WorldStreetMap, Esri_NatGeoWorldMap, Esri_WorldImagery
 map-search: true # not suggested with large collections
