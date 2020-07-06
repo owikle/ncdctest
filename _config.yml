@@ -8,7 +8,7 @@
 # URL VARIABLES
 #
 # site domain, full URL to the production location of your collection
-url: https://erholmes.github.io
+url: https://owikle.github.io
 # path to location on the domain if necessary e.g. /digital/hjccc
 baseurl: /ncdctest
 # location of code, the full url to your github repository
@@ -63,7 +63,7 @@ page_gen:
 # ROBOTS EXCLUDE
 #
 # set noindex to true if you do NOT want Google to index your site
-# noindex: true 
+noindex: true 
 
 ##########
 # BUILD SETTINGS 
